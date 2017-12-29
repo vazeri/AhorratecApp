@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'Ahorrakey'
+            keyPassword 'Megamanx554462'
+            storeFile file('D:/Dropbox/Ahorratec/App/ahorratec.jks')
+            storePassword 'Megamanx554462'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "org.ahorratec.myapps"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 135
+        versionName "2.0.6"
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.android.support:recyclerview-v7:25.1.1'
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.1'
+    compile 'com.google.android.gms:play-services-vision:10.2.0'
+    compile 'com.android.support:design:25.1.1'
+}

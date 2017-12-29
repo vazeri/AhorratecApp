@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Dropbox\Ahorratec\App\AndroidApp-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c9b7b79a5266aa9cb27c7810c7b924bfc604083">
+        <dex dex="D:\Dropbox\Ahorratec\App\AndroidApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1159bd69e901d7dc5882b12919f46e306b090292\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Dropbox\Ahorratec\App\AndroidApp-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="D:\Dropbox\Ahorratec\App\AndroidApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_03eb992254c3c43a8fd511b2d7966dae37d8e030\classes.dex" />
+    </item>
+
+</items>
